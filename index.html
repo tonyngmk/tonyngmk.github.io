@@ -1,350 +1,186 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tony Ng</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- AOS -->
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.css" rel="stylesheet"> -->
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
 </head>
-<title>Tony Ng</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/tony.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<!--<link rel="stylesheet" href="css/fontawesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css">-->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
-<style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background: #222;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top py-1">
+      <div class="container">
+        <a href="#" class="navbar-brand">Tony Ng</a>
 
-</style>
-<body class="w3-black">
+        <button 
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <img src="images/tony_thumbnail.jfif" style="width:100%">
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>PROJECTS</p>
-  </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
-  </a>
-</nav>
-
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">VIDEOS</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-  </div>
-</div>
-
-<!-- Page Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Tony Ng.</h1>
-    <p>Data Science and Tech enthusiast.</p>
-    <!-- <img src="images/tony.png" alt="Tony" class="big image" width="992" height="1108"> -->
-  </header>
-
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">My Journey</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <p> I never knew I would've thoroughly enjoyed coding.
-	<br></br>
-	It all started with choosing the Business Analytics (BA) specialization recklessly without any prior coding knowledge. Taking this leap of faith could well be suicidal (for our grades) as it would mean studying alongside Computer Science major students who had at least a prior year of coding experience. Not wanting to be proved right by well-intentioned peers that has thus picked safer routes, I burned several months in isolation learning coding primarily through MOOCs. Now, I can say that I genuinely enjoy coding and analytics related modules and have been doing well. I do believe this is only the beginning of my long journey to becoming a more well-rounded and skilled coder.
-	<br></br>
-	Apart from anything serious, I enjoy physical activities and playing computer games as well.
-	<br></br>
-	Skills Specialties: Python, Machine Learning, SQL, R, RegEx
-	<br></br>
-	Academic: Business, Statistics
-    </p>
-    <a href="https://www.notion.so/goldknees/Tony-Ng-3922b2aac5b84e0fbfe0c8ce2dbea1ab" class="icon-block">
-		<button class="w3-button w3-light-grey w3-padding-large w3-section"> Portfolio Website
-			<!-- <i class="fa fa-linkedin w3-hover-opacity"> LinkedIn Profile -->
-		</button>
-	</a>
-    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">Python</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-    </div>
-    <p class="w3-wide">Machine Learning</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
-    </div>
-    <p class="w3-wide">SQL</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
-	</div>
-	<p class="w3-wide">Regular Expressions</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:15%"></div>
-    </div><br>
-    
-    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">9+</span><br>
-        Skillsets
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#career" class="nav-link">Career</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">7+</span><br>
-        Specialization
+    </nav>
+
+    <!-- Showcase -->
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div> 
+            <h1>Hello <span class="text-warning"> You! </span></h1>
+            <p class="lead my-4">
+              Thanks for dropping by, I want to share a little about my journey as a DA/DE.
+            </p>
+            <!-- <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Let's go!
+            </button> -->
+            <a href="#career" class="btn btn-primary btn-lg scrollto" role="button">Let's Go!</a>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="images/coder.png"
+            alt=""
+          />
+
+        </div>
       </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">40+</span><br>
-        Courses
+    </section>
+
+    <section class="p-5" id="career">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-egg"></i>
+                </div>
+                <h3 class="card-title mb-3">DA - Intern</h3>
+                <p class="card-text">
+                  As part of a 36-week long Work-Study Programme in <strong class="text-info">The Ascott Limited</strong>.
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Read More</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-warning text-dark">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title mb-3">DA</h3>
+                <p class="card-text">
+                  Worked on Financial Services and Credit in <strong class="text-danger">Shopee Singapore</strong>.
+                </p>
+                <!-- <a href="#" class="btn btn-dark">Read More</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-gear-fill"></i>
+                </div>
+                <h3 class="card-title mb-3">DE</h3>
+                <p class="card-text">
+                  Part of Search, Rcmd, Paid Ads, Cross-Border in <strong class="text-danger">Shopee Singapore</strong>.
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Read More</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">100+</span><br>
-        Guided Projects
+    </section>
+
+    <!-- Education -->
+
+    <section id="education" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="images/graduates.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Nanyang Technological University</h2>
+            <p class="lead">
+              Bachelor in Business,<br>
+              Specialisation in Business Analytics
+            </p>
+              First-Class Honors and a 
+              Research Assistant of a ML project to achieve
+              high prediction with cutting-edge algorithms. 
+            </p>
+            </p>
+              Student-athlete of Dragon Boat and Judo.
+            </p>
+            <!-- <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a> -->
+          </div>
+        </div>
       </div>
-    </div>	
-    <h3 class="w3-padding-24 w3-text-light-grey">Skillsets</h3>  
-		<ul>
-			<li>Python</li>
-			<li>R</li>
-			<li>SQL</li>
-			<li>RegEx</li>
-			<li>Java</li>
-			<li>Tableau</li>
-			<li>Power BI</li>
-			<li>NoSQL</li>
-			<li>HTML</li>
-			<li>CSS</li>
-			<li>Javascript</li>
-			<a href="https://github.com/tonyngmk/Web-Scrape">
-				<li>Web Scraping</li>
-			</a>
-		</ul>
-		<!-- <ul class = "Database Languages"> -->
-			<!-- <h5>Database Languages</h5> -->
+    </section>
 
-		<!-- </ul> -->
-		<!-- <ul class = "Web Development"> -->
-			<!-- <h5>Web Development</h5> -->
+    <section id="education" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>Temasek Polytechnic</h2>
+            <p class="lead">
+              Diploma in Accounting & Finance
+            </p>
+            <p>
+              Director List with a Diploma Plus in 
+              Innovation and Entrepreneurship.
+            </p>
 
-		<!-- </ul> -->
-
-    
-    <!-- Grid for pricing tables -->
-    <h3 class="w3-padding-16 w3-text-light-grey">Education</h3>
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Nanyang Technological University</li>
-          <li class="w3-padding-16">Final Year Student</li>
-          <li class="w3-padding-16">Business Analytics Specialization</li>
-          <li class="w3-padding-16">Strong in all Analytics modules</li>
-          <li class="w3-padding-16">Student Athlete</li>
-          <!-- <li class="w3-padding-16"> -->
-            <!-- <h2>$ 10</h2> -->
-            <!-- <span class="w3-opacity">per month</span> -->
-          <!-- </li> -->
-          <!-- <li class="w3-light-grey w3-padding-24"> -->
-            <!-- <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button> -->
-          <!-- </li> -->
-        </ul>
+            <p>
+              Took part in Dragon Boat, Adventure Club,
+              NYAA Achievement Club, Sports Club, Accounting & Finance Club,
+              and many more.
+            </p>
+            <!-- <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a> -->
+          </div>
+          <div class="col-md">
+            <img src="images/students.png" class="img-fluid" alt="" />
+          </div>
+        </div>
       </div>
+    </section>
 
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Temasek Polytechnic</li>
-          <li class="w3-padding-16">Diploma in Accounting & Finance</li>
-          <li class="w3-padding-16">Diploma Plus - Innovation & Entrepreneurship</li>
-          <li class="w3-padding-16">Director's List for AY13/14</li>
-          <li class="w3-padding-16">3.86 out of 4.00 GPA</li>
-          <!-- <li class="w3-padding-16"> -->
-            <!-- <h2>$ 25</h2> -->
-            <!-- <span class="w3-opacity">per month</span> -->
-          <!-- </li> -->
-          <!-- <li class="w3-light-grey w3-padding-24"> -->
-            <!-- <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button> -->
-          <!-- </li> -->
-        </ul>
-      </div>
-    <!-- End Grid/Pricing tables -->
-    </div>
-    
-    <!-- Testimonials -->
-    <h3 class="w3-padding-24 w3-text-light-grey">Work Experience</h3>
-	<img src="images/ntuLogo.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Research Assistant</span> Nanyang Technological University</p>
-    <p> 
-	<ul>
-	<li>To achieve the highest predictive accuracy possible with machine learning techniques</li>
-	<li>Eliciting explainable features to explain and justify the model forecast</li>
-	<li>Developing text mining techniques to improve predictive performance</li>
-	<li>Understanding external environmental factors and how they influence the outcome variables</li>
-	</ul>
-	</p><br>
-	
-    <img src="images/theascott.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Data Analyst Intern</span> The Ascott Limited</p>
-    <p>In this 1-year Work-Study Programme (WSP), I have:
-	<ul>
-	<li>Developed several Power BI dashboards and converted multiple Azure Analysis Services cubes/models to Power BI (Microsoft Services OLE DB Provider) for Analysis with Excel.</li>
-	<li>Created several automated workflows for the team</li>
-	<li>On a day-to-day basis, I have used Python, R, SQL, and etc.</li>
-	</ul></p><br>
-    
-    <img src="images/rsaf.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"
-    <p><span class="w3-large w3-margin-right">Base Command Post Specialist</span> Republic of Singapore Air Force (RSAF)</p>
-    <p>In the Republic of Singapore Air Force, my duty consist of 24-hour shift duties with the Base Command Post Coordinator 
-	to meet operation/mission needs amongst squadrons within Paya Lebar Airbase and other airbases. Achieved both best recruit and best knowledge
-	in my batch, and the best airmen of a month during my service.</p><br>
-	
-	<img src="images/kellyservices.jfif" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Finance Intern</span> Kelly Services</p>
-    <p>Managed monthly financial documents with accounting ERP software Sage 300 ERP. Achieved pass with commendation.</p><br>
-  <!-- End About Section -->
-  </div>
-  
-  
-  <!-- Portfolio Section -->
-  <!--
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">Some Projects</h2>
-    <hr style="width:200px" class="w3-opacity"> -->
-	<!-- <p> Will be showcasing some of my projects here!</p> -->
-	
-   <!-- 
-	<h4>Web Applications</h4>
-		<p>Please allow some time for Heroku app to load:</p>
-        <ul>
-			<a href="http://bc3406hackathon.herokuapp.com/">
-			  <li>BC3406 - Hackathon (EDA and AI Model Results) </li>
-			</a>
-			<a href="http://bc3409pa.herokuapp.com/">
-			  <li>BC3409 - Practical Assessment (Airbnb Optimal Price Recommender) </li>
-			</a>
-			<a href="http://bc3409project.herokuapp.com/">
-			  <li>BC3409 - Project (FAANG Web App) </li>
-			</a>
-        </ul>
-	<h4>Telegram Chatbots</h4>
-		<ul>
-			<a href="https://github.com/tonyngmk/bc3409project/tree/main/Chatbot">
-			  <li>FAANG Bot - @BC3409_FAANG_Bot</li>
-			</a>
-			<a href="https://github.com/tonyngmk/msba_bot">
-			  <li>NTU MSBA Bot - @MSBA_NTU_Bot</li>
-			</a>
-			<a href="https://github.com/tonyngmk/my-stoic-telebot">
-			  <li>Daily Stoic Bot - @dailystoic_bot</li>
-			</a>
-			<a href="https://github.com/tonyngmk/telegram-ntudb-bot">
-			  <li>Attendance Taking Bot - @NTUDB_Bot</li>
-			</a>
-        </ul> 
-	-->
-	
-
-    <!-- Grid for photos -->
-    <!-- <div class="w3-row-padding" style="margin:0 -16px"> -->
-      <!-- <div class="w3-half"> -->
-        <!-- <img src="/w3images/wedding.jpg" style="width:100%"> -->
-        <!-- <img src="/w3images/rocks.jpg" style="width:100%"> -->
-        <!-- <img src="/w3images/sailboat.jpg" style="width:100%"> -->
-      <!-- </div> -->
-
-      <!-- <div class="w3-half"> -->
-        <!-- <img src="/w3images/underwater.jpg" style="width:100%"> -->
-        <!-- <img src="/w3images/chef.jpg" style="width:100%"> -->
-        <!-- <img src="/w3images/wedding.jpg" style="width:100%"> -->
-        <!-- <img src="/w3images/p6.jpg" style="width:100%"> -->
-      <!-- </div> -->
-    <!-- End photo grid -->
-    <!-- </div> -->
-  <!-- End Portfolio Section -->
-  </div>
-
-  <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Tons of Links</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <div class="w3-section">
-      <!-- <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p> -->
-      <!-- <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p> -->
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> TONY0006@e.ntu.edu.sg</p>
-	  </a>
-	  <p><a href="https://www.linkedin.com/in/tony-ng-ab5640113/" class="icon-block">
-		<i class="fab fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>LinkedIn - Tony Ng</p>
-	  </a>
-	  <p><a href="https://github.com/tonyngmk" class="icon-block">
-		<i class="fab fa-github fa-fw w3-text-white w3-xxlarge w3-margin-right" ></i>Github - tonyngmk</p>
-	  </a>
-	  <p><a href="https://www.kaggle.com/shymammoth" class="icon-block">
-		<i class="fab fa-kaggle fa-fw w3-text-white w3-xxlarge w3-margin-right" ></i>Kaggle - shymammoth</p>
-	  </a>
-	  <p><a href="https://stackoverflow.com/users/11845588/tony-ng" class="icon-block">
-		<i class="fab fa-stack-overflow fa-fw w3-text-white w3-xxlarge w3-margin-right" ></i>StackOverflow - Tony Ng</p>
-	  </a>
-	  <p><a href="https://www.hackerrank.com/ShyMammoth" class="icon-block">
-		<i class="fab fa-hackerrank fa-fw w3-text-white w3-xxlarge w3-margin-right" ></i>HackerRank - ShyMammoth</p>
-	  </a>
-	  <p><a href="https://www.keybr.com/profile/h3x9l8t" class="icon-block">
-		<i class="fas fa-keyboard fa-fw w3-text-white w3-xxlarge w3-margin-right" ></i>KeyBr - Tony Ng</p>
-	  </a>
-    </div><br>
-    <!-- <p>Let's get in touch. Send me a message:</p> -->
-	<p> p.s., please only reach out with regards to only topics of interest e.g. data science. 
-
-    <!-- <form action="/action_page.php" target="_blank"> -->
-      <!-- <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p> -->
-      <!-- <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p> -->
-      <!-- <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p> -->
-      <!-- <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p> -->
-      <!-- <p> -->
-        <!-- <button class="w3-button w3-light-grey w3-padding-large" type="submit"> -->
-          <!-- <i class="fa fa-paper-plane"></i> SEND MESSAGE -->
-        <!-- </button> -->
-      <!-- </p> -->
-    <!-- </form> -->
-  <!-- End Contact Section -->
-  </div>
-  
-    <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-	<p> © Tony Ng </p>
-    <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i> -->
-	<!-- <a href="https://www.instagram.com/tohniverse/" class="icon-block"> -->
-		<!-- <i class="fa fa-instagram w3-hover-opacity" ></i> -->
-	<!-- </a> -->
-    <!-- <i class="fa fa-snapchat w3-hover-opacity"></i> -->
-    <!-- <i class="fa fa-pinterest-p w3-hover-opacity"></i> -->
-    <!-- <i class="fa fa-twitter w3-hover-opacity"></i> -->
-	<!-- <a href="https://www.linkedin.com/in/tony-ng-ab5640113/" class="icon-block"> -->
-		<!-- <i class="fa fa-linkedin w3-hover-opacity"></i> -->
-	<!-- </a> -->
-  <!-- End footer -->
-  </footer>
-	
-<!-- END PAGE CONTENT -->
-</div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
